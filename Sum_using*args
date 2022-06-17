@@ -1,0 +1,11 @@
+def sum_numbers(*numbers: float) -> float:
+"""
+  The function evaluates the sum of the numbers
+  param numbers: the parameter contains numbers in a tuple
+  return: the function returns the sum of all the numbers in the tuple
+"""
+
+  return sum(numbers)
+  
+  
+  print(sum(1, 2, 3))
